@@ -569,7 +569,7 @@ Message Body
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
 | :tada: | `:tada:` | **Initial** Commit |
-| :wrench: | `:wrench:`| when configuring enviromnt or the anything related to the project
+| :wrench: | `:wrench:`| when configuring environment or the anything related to the project
 | :fire: | `:fire:` | when **removing code** or files |
 | :bug: | `:bug:` | when reporting a **bug**|
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
