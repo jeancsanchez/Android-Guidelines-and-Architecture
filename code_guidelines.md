@@ -22,8 +22,7 @@ For classes that extend an Android component, the name of the class should end w
 ### Resources files
 Resources file names are written in __lowercase_underscore__.
 
-#### 1.2.2.1 Drawable files
-
+#### Drawable files
 Naming conventions for drawables:
 
 
@@ -60,8 +59,7 @@ Naming conventions for selector states:
 | Selected     | `_selected`     | `btn_order_selected.9.png`  |
 
 
-#### 1.2.2.2 Layout files
-
+#### Layout files
 Layout files should match the name of the Android components that they are intended for but moving the top level component name to the beginning. For example, if we are creating a layout for the `SignInActivity`, the name of the layout file should be `activity_sign_in.xml`.
 
 | Component        | Class Name             | Layout Name                   |
@@ -72,23 +70,21 @@ Layout files should match the name of the Android components that they are inten
 | AdapterView item | ---                    | `item_person.xml`             |
 | Partial layout   | ---                    | `partial_stats_bar.xml`       |
 
-A slightly different case is when we are creating a layout that is going to be inflated by an `Adapter`, e.g to populate a `ListView`. In this case, the name of the layout should start with `item_`.
+A slightly different case is when we are creating a layout that is going to be inflated by an `Adapter`, e.g to populate a `ListView/RecyclerView`. In this case, the name of the layout should start with `item_`.
 
 Note that there are cases where these rules will not be possible to apply. For example, when creating layout files that are intended to be part of other layouts. In this case you should use the prefix `partial_`.
 
-#### 1.2.2.3 Menu files
-
+#### Menu files
 Similar to layout files, menu files should match the name of the component. For example, if we are defining a menu file that is going to be used in the `UserActivity`, then the name of the file should be `activity_user.xml`
 
 A good practice is to not include the word `menu` as part of the name because these files are already located in the `menu` directory.
 
-#### 1.2.2.4 Values files
-
+#### Values files
 Resource files in the values folder should be __plural__, e.g. `strings.xml`, `styles.xml`, `colors.xml`, `dimens.xml`, `attrs.xml`
 
-# 2 Code guidelines
+# Code guidelines
 
-## 2.1 Java language rules
+## Java language rules
 
 ### 2.1.1 Don't ignore exceptions
 
