@@ -548,7 +548,6 @@ All Git Commit Messages **MUST** meet with this Text Format:
 (Only One NewLine)
 Message Body
 (Only One NewLine)
-Ref <###>
 ```
 
 ### Rules
