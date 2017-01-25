@@ -3,8 +3,8 @@
 * [Java language rules](#java-language-rules)
 * [Java style rules](#java-style-rules)
 * [XML style rules](#xml-style-rules)
+* [Commits](#commits)
 * [Tests style rules](#tests-style-rules)
-* [Data access](#data-access)
 
 ## Project structure
 pass
@@ -540,8 +540,27 @@ As a general rule you should try to group similar attributes together. A good wa
 4. Other layout attributes, sorted alphabetically
 5. Remaining attributes, sorted alphabetically
 
-## Tests style rules
+## Commits
+Commit Type | Emoji
+----------  | -------------
+Initial Commit | :tada: `:tada:`
+Version Tag | :bookmark: `:bookmark:`
+New Feature | :sparkles: `:sparkles:`
+Bugfix | :bug: `:bug:`
+Metadata | :card_index: `:card_index:`
+Refactoring | :package: `:package:`
+Documentation | :books: `:books:`
+Internationalization | :globe_with_meridians: `:globe_with_meridians:`
+Performance | :racehorse: `:racehorse:`
+Cosmetic | :lipstick: `:lipstick:`
+Tooling | :wrench: `:wrench:`
+Tests | :rotating_light: `:rotating_light:`
+Deprecation | :poop: `:poop:`
+Work In Progress (WIP) | :construction: `:construction:`
+Other | [Be creative](http://www.emoji-cheat-sheet.com/)
 
+
+## Tests style rules
 ### Unit tests
 Test classes should match the name of the class the tests are targeting, followed by `Test`. For example, if we create a test class that contains tests for the `DatabaseHelper`, we should name it `DatabaseHelperTest`.
 
