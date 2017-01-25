@@ -3,7 +3,7 @@
 * [Java language rules](#java-language-rules)
 * [Java style rules](#java-style-rules)
 * [XML style rules](#xml-style-rules)
-* [Commits](#commits)
+* [Commits style](#commits)
 * [Tests style rules](#tests-style-rules)
 
 ## Project structure
@@ -541,24 +541,71 @@ As a general rule you should try to group similar attributes together. A good wa
 5. Remaining attributes, sorted alphabetically
 
 ## Commits
-Commit Type | Emoji
-----------  | -------------
-Initial Commit | :tada: `:tada:`
-Version Tag | :bookmark: `:bookmark:`
-New Feature | :sparkles: `:sparkles:`
-Bugfix | :bug: `:bug:`
-Metadata | :card_index: `:card_index:`
-Refactoring | :package: `:package:`
-Documentation | :books: `:books:`
-Internationalization | :globe_with_meridians: `:globe_with_meridians:`
-Performance | :racehorse: `:racehorse:`
-Cosmetic | :lipstick: `:lipstick:`
-Tooling | :wrench: `:wrench:`
-Tests | :rotating_light: `:rotating_light:`
-Deprecation | :poop: `:poop:`
-Work In Progress (WIP) | :construction: `:construction:`
-Other | [Be creative](http://www.emoji-cheat-sheet.com/)
+For more agility and undestanding, we use emojis to represent a task.
+All Git Commit Messages **MUST** meet with this Text Format:
+```
+:emoji1: :emoji2: Subject
+(Only One NewLine)
+Message Body
+(Only One NewLine)
+Ref <###>
+```
 
+### Rules
+-----
+1. Capitalize the _Subject_.
+2. Do not end the _Subject_ line with a period.
+3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
+4. Total Characters of the _Subject Line_ **MUST** be _Less_ than or _Equal_ to **72** Chars Long.
+5. Use the **Present Tense** ("Add feature" not "Added feature").
+6. Use the **Imperative Mood** ("Move cursor to..." not "Moves cursor to...").
+7. Use the _Message body_ to explain **what** and **why** vs. how.
+
+### Notes
+-----
++ There is a **Space** Character between Multiple Emojis!.
++ Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
+
+
+### Suggested Emojis
+----------------
+
+| Emoji | Raw Emoji Code | Description |
+|:---:|:---:|---|
+| :art: | `:art:` | when improving the **format**/structure of the code |
+| :racehorse: | `:racehorse:` | when improving **performance** |
+| :books: | `:books:` | when writing **docs** |
+| :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
+| :ambulance: | `:ambulance:` | when fixing a **bug** |
+| :penguin: | `:penguin:` | when fixing something on **Linux** |
+| :apple: | `:apple:` | when fixing something on **Mac OS** |
+| :checkered_flag: | `:checkered_flag:` | when fixing something on **Windows** |
+| :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
+| :umbrella: | `:umbrella:` | when adding **tests** |
+| :green_heart: | `:green_heart:` | when fixing the **CI** build |
+| :lock: | `:lock:` | when dealing with **security** |
+| :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
+| :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
+| :fast_forward: | `:fast_forward:` | when **forward-porting features** from an older version/branch |
+| :rewind: | `:rewind:` | when **backporting features** from a newer version/branch |
+| :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings |
+| :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
+| :wheelchair: | `:wheelchair:` | when improving **accessibility** |
+| :construction: | `:construction:` | **WIP**(Work In Progress) Commits, _maybe_ with `@REVIEW` Comment Tag |
+| :gem: | `:gem:` | New **Release** |
+| :bookmark: | `:bookmark:` | Version **Tags** |
+| :tada: | `:tada:` | **Initial** Commit |
+| :speaker: | `:speaker:` | when Adding **Logging** |
+| :mute: | `:mute:` | when Reducing **Logging** |
+| :sparkles: | `:sparkles:` | when introducing **New** Features |
+| :zap: | `:zap:` | when introducing **Backward-InCompatible** Features, _maybe_ with `@CHANGED` Comment Tag |
+| :bulb: | `:bulb:` | New **Idea**, with `@IDEA` Comment Tag |
+| :snowflake: | `:snowflake:` | changing **Configuration**, Usually together with :penguin: or :ribbon: or :rocket: |
+| :ribbon: | `:ribbon:` | Customer requested application **Customization**, with `@HACK` Comment Tag |
+| :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
+| :elephant: | `:elephant:` | **PostgreSQL** Database specific(Migrations, Scripts, Extensions, ...)  |
+| :dolphin: | `:dolphin:` | **MySQL** Database specific(Migrations, Scripts, Extensions, ...) |
+> Inspired by: https://github.com/slashsBin/styleguide-git-commit-message
 
 ## Tests style rules
 ### Unit tests
@@ -583,21 +630,3 @@ onView(withId(R.id.view))
         .perform(scrollTo())
         .check(matches(isDisplayed()))
 ```
-
-# License
-```
-Copyright 2015 Ribot Ltd.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
