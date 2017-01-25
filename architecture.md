@@ -4,5 +4,5 @@
 
 ## Clean Architecture
 ## Data Access
-(https://raw.githubusercontent.com/NYTimes/Store/master/Images/store-3.jpg)
+![Fluxogram data access](https://raw.githubusercontent.com/NYTimes/Store/master/Images/store-3.jpg)
 ## Testing
