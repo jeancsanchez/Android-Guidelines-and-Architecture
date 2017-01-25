@@ -1,1 +1,1 @@
-* Project Structre
+* Project Structure
