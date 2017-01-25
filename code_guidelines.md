@@ -3,8 +3,8 @@
 * [Java language rules](#java-language-rules)
 * [Java style rules](#java-style-rules)
 * [XML style rules](#xml-style-rules)
+* [Test style rules](#test-style-rules)
 * [Data access](#data-access)
-* [Testing](#testing)
 
 ## Project Structure
 ## Data Access
@@ -468,11 +468,9 @@ loadPicture(context,
 ## XML style rules
 
 ### Use self closing tags
-
 When an XML element doesn't have any contents, you __must__ use self closing tags.
 
 This is good:
-
 ```xml
 <TextView
 	android:id="@+id/text_view_profile"
@@ -481,7 +479,6 @@ This is good:
 ```
 
 This is __bad__ :
-
 ```xml
 <!-- Don\'t do this! -->
 <TextView
@@ -492,12 +489,10 @@ This is __bad__ :
 ```
 
 
-### 2.3.2 Resources naming
-
+### Resources naming
 Resource IDs and names are written in __lowercase_underscore__.
 
-#### 2.3.2.1 ID naming
-
+#### ID naming
 IDs should be prefixed with the name of the element in lowercase underscore. For example:
 
 
@@ -509,7 +504,6 @@ IDs should be prefixed with the name of the element in lowercase underscore. For
 | `Menu`               | `menu_`             |
 
 Image view example:
-
 ```xml
 <ImageView
     android:id="@+id/image_profile"
@@ -518,7 +512,6 @@ Image view example:
 ```
 
 Menu example:
-
 ```xml
 <menu>
 	<item
@@ -527,8 +520,7 @@ Menu example:
 </menu>
 ```
 
-#### 2.3.2.2 Strings
-
+#### Strings
 String names start with a prefix that identifies the section they belong to. For example `registration_email_hint` or `registration_name_hint`. If a string __doesn't belong__ to any section, then you should follow the rules below:
 
 
@@ -541,12 +533,10 @@ String names start with a prefix that identifies the section they belong to. For
 
 
 
-#### 2.3.2.3 Styles and Themes
-
+#### Styles and Themes
 Unless the rest of resources, style names are written in __UpperCamelCase__.
 
-### 2.3.3 Attributes ordering
-
+### Attributes ordering
 As a general rule you should try to group similar attributes together. A good way of ordering the most common attributes is:
 
 1. View Id
@@ -555,10 +545,9 @@ As a general rule you should try to group similar attributes together. A good wa
 4. Other layout attributes, sorted alphabetically
 5. Remaining attributes, sorted alphabetically
 
-## 2.4 Tests style rules
+## Tests style rules
 
-### 2.4.1 Unit tests
-
+### Unit tests
 Test classes should match the name of the class the tests are targeting, followed by `Test`. For example, if we create a test class that contains tests for the `DatabaseHelper`, we should name it `DatabaseHelperTest`.
 
 Test methods are annotated with `@Test` and should generally start with the name of the method that is being tested, followed by a precondition and/or expected behaviour.
@@ -570,8 +559,7 @@ Precondition and/or expected behaviour may not always be required if the test is
 
 Sometimes a class may contain a large amount of methods, that at the same time require several tests for each method. In this case, it's recommendable to split up the test class into multiple ones. For example, if the `DataManager` contains a lot of methods we may want to divide it into `DataManagerSignInTest`, `DataManagerLoadUsersTest`, etc. Generally you will be able to see what tests belong together because they have common [test fixtures](https://en.wikipedia.org/wiki/Test_fixture).
 
-### 2.4.2 Espresso tests
-
+### Espresso tests
 Every Espresso test class usually targets an Activity, therefore the name should match the name of the targeted Activity followed by `Test`, e.g. `SignInActivityTest`
 
 When using the Espresso API it is a common practice to place chained methods in new lines.
@@ -583,7 +571,6 @@ onView(withId(R.id.view))
 ```
 
 # License
-
 ```
 Copyright 2015 Ribot Ltd.
 
