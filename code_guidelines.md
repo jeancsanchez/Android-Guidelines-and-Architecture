@@ -552,7 +552,6 @@ Ref <###>
 ```
 
 ### Rules
------
 1. Capitalize the _Subject_.
 2. Do not end the _Subject_ line with a period.
 3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
@@ -562,13 +561,11 @@ Ref <###>
 7. Use the _Message body_ to explain **what** and **why** vs. how.
 
 ### Notes
------
 + There is a **Space** Character between Multiple Emojis!.
 + Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
 
 
 ### Suggested Emojis
-----------------
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
