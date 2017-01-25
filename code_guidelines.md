@@ -568,24 +568,25 @@ Message Body
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
+| :tada: | `:tada:` | **Initial** Commit |
+| :wrench: | `:wrench:`| when configuring enviromnt or the anything related to the project
+| :fire: | `:fire:` | when **removing code** or files |
+| :bug: | `:bug:` | when reporting a **bug**|
+| :ambulance: | `:ambulance:` | when fixing a **bug** |
+| :sparkles: | `:sparkles:` | when introducing **New** Features |
 | :art: | `:art:` | when improving the **format**/structure of the code |
 | :racehorse: | `:racehorse:` | when improving **performance** |
-| :books: | `:books:` | when writing **docs** |
-| :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
-| :ambulance: | `:ambulance:` | when fixing a **bug** |
-| :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
-| :umbrella: | `:umbrella:` | when adding **tests** |
+| :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
 | :lock: | `:lock:` | when dealing with **security** |
+| :umbrella: | `:umbrella:` | when adding **tests** |
+| :construction: | `:construction:` | **WIP**(Work In Progress) Commits|
+| :wheelchair: | `:wheelchair:` | when improving **accessibility** |
+| :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings |
+| :books: | `:books:` | when writing **docs** |
 | :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
 | :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
-| :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings |
-| :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
-| :wheelchair: | `:wheelchair:` | when improving **accessibility** |
-| :construction: | `:construction:` | **WIP**(Work In Progress) Commits, _maybe_ with `@REVIEW` Comment Tag |
-| :gem: | `:gem:` | New **Release** |
 | :bookmark: | `:bookmark:` | Version **Tags** |
-| :tada: | `:tada:` | **Initial** Commit |
-| :sparkles: | `:sparkles:` | when introducing **New** Features |
+| :gem: | `:gem:` | New **Release** |
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
 > Inspired by: https://github.com/slashsBin/styleguide-git-commit-message
 
