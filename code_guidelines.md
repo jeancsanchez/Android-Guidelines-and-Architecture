@@ -3,7 +3,7 @@
 * [Java language rules](#java-language-rules)
 * [Java style rules](#java-style-rules)
 * [XML style rules](#xml-style-rules)
-* [Test style rules](#test-style-rules)
+* [Tests style rules](#tests-style-rules)
 * [Data access](#data-access)
 
 ## Project Structure
