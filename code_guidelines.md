@@ -571,8 +571,8 @@ Message Body
 | :tada: | `:tada:` | **Initial** Commit |
 | :wrench: | `:wrench:`| when configuring environment or the anything related to the project
 | :fire: | `:fire:` | when **removing code** or files |
-| :bug: | `:bug:` | when reporting a **bug**|
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
+| :bug: | `:bug:` | when reporting a **bug**|
 | :sparkles: | `:sparkles:` | when introducing **New** Features |
 | :art: | `:art:` | when improving the **format**/structure of the code |
 | :racehorse: | `:racehorse:` | when improving **performance** |
