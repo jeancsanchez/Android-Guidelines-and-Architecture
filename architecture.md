@@ -7,6 +7,8 @@
 * And it https://medium.com/@ronanrodrigo/viper-arquitetura-de-software-e-carros-bee4a85c613f#.le9m9xz5c
 * And it too https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029#.l3lnyuvgp
 * One more https://github.com/android10/Android-CleanArchitecture
+* And more one https://github.com/dmilicic/Android-Clean-Boilerplate
+* The last https://github.com/dmilicic/android-clean-sample-app
 
 ## Data Access
 ![Fluxogram data access](https://raw.githubusercontent.com/NYTimes/Store/master/Images/store-3.jpg)
