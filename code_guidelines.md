@@ -544,8 +544,7 @@ As a general rule you should try to group similar attributes together. A good wa
 For more agility and undestanding, we use emojis to represent a task.
 All Git Commit Messages **MUST** meet with this Text Format:
 ```
-:emoji1: :emoji2: Subject
-(Only One NewLine)
+:emoji1: :emoji2: :emoji3: (max 3 emojis) subject
 Message Body
 (Only One NewLine)
 ```
