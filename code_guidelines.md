@@ -201,6 +201,33 @@ if (condition)
     body();  // bad!
 ```
 
+For nested or sequences of __if__ statments, break one line for each one:
+This is __good__:
+```java
+if (condition) {
+    function1();
+    function2();
+    
+    if(condition2){    
+        function1();
+        function2();
+    }
+}
+```
+
+This is __bad__:
+```java
+if (condition) {
+    function1();
+    function2();    
+    if(condition2){    
+        function1();
+        function2();
+    }
+}
+```
+
+
 ####  Annotations practices
 According to the Android code style guide, the standard practices for some of the predefined annotations in Java are:
 
