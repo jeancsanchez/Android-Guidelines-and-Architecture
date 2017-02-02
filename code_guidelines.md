@@ -209,7 +209,7 @@ if (condition) {
     function1();
     function2();
     
-    if(condition2){    
+    if(condition2) {    
         function1();
         function2();
     }
