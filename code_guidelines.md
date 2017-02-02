@@ -201,7 +201,8 @@ if (condition)
     body();  // bad!
 ```
 
-For nested or sequences of __if__ statments, break one line for each one:
+For nested or sequences of __if__ statments, break one line in the end of each one:
+
 This is __good__:
 ```java
 if (condition) {
@@ -212,6 +213,15 @@ if (condition) {
         function1();
         function2();
     }
+}
+
+if (condition3) {                       
+    function1();
+    function2();
+    
+} else if (condtion4) {                          
+    function1();
+    function2();
 }
 ```
 
@@ -225,6 +235,14 @@ if (condition) {
         function2();
     }
 }
+if (condition3) {                       
+    function1();
+    function2();    
+} else if (condtion4) {                          
+    function1();
+    function2();
+}
+
 ```
 
 
