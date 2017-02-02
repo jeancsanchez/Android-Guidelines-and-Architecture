@@ -598,7 +598,7 @@ Message Body
 1. Capitalize the _Subject_.
 2. Do not end the _Subject_ line with a period.
 3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
-4. Total Characters of the _Subject Line_ **MUST** be _Less_ than or _Equal_ to **72** Chars Long.
+4. Total Characters of the _Subject Line_ **MUST** be _Less_ than or _Equal_ to **50** Chars Long.
 5. Use the **Present Tense** ("Add feature" not "Added feature").
 6. Use the **Imperative Mood** ("Move cursor to..." not "Moves cursor to...").
 7. Use the _Message body_ to explain **what** and **why** vs. how.
