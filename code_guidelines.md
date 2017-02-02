@@ -615,11 +615,11 @@ Message Body
 | :tada: | `:tada:` | **Initial** Commit |
 | :wrench: | `:wrench:`| when configuring environment or anything related to the project
 | :fire: | `:fire:` | when **removing code** or files |
-| :recycle: | `:recycle:`| when just **renaming or refactoring** files or directories
+| :recycle: | `:recycle:`| when just **renaming or changing for guidelines** files or directories
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
 | :bug: | `:bug:` | when reporting a **bug**|
 | :sparkles: | `:sparkles:` | when introducing **New** Features |
-| :art: | `:art:` | when improving the **format**/structure of the code |
+| :art: | `:art:` | when improving the **format/structure or just refractor** of the code |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
 | :lock: | `:lock:` | when dealing with **security** |
