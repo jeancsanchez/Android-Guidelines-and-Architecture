@@ -630,7 +630,7 @@ Message Body
 | :books: | `:books:` | when writing **docs** |
 | :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
 | :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
-| ::globe_with_meridians: | `:globe_with_meridians:` | when translating messages |
+| :globe_with_meridians: | `:globe_with_meridians:` | when translating messages |
 | :bookmark: | `:bookmark:` | Version **Tags** |
 | :gem: | `:gem:` | New **Release** |
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
