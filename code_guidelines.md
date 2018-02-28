@@ -4,8 +4,8 @@
 * [Java style rules](#java-style-rules)
 * [XML style rules](#xml-style-rules)
 * [Commits style](#commits)
-* [Tests style rules](#tests-style-rules)
 * [Git flow](#git-flow)
+* [Tests style rules](#tests-style-rules)
 ## Project structure
 Folders and directories on lowercase.
 New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [ribot Boilerplate](https://github.com/ribot/android-boilerplate) project is a good reference to start from.
